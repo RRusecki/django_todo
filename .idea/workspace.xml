@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a091394-2bd5-402f-9193-e62aaa5759c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/todo/templates/todo/task_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/templates/todo/confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/templates/todo/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo/templates/todo/task_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/templates/todo/task_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo/templates/todo/task_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>

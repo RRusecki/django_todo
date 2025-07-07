@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <title>Ištrinti užduotį</title>
+</head>
+<body>
+    <h2>Ar tikrai nori ištrinti užduotį "{{ task.title }}"?</h2>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Taip, ištrinti</button>
+        <a href="{% url 'task_list' %}">Atšaukti</a>
+    </form>
+</body>
+</html>

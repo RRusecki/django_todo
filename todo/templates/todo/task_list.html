@@ -13,6 +13,8 @@
             {% for task in tasks %}
                 <li>
                     <strong>{{ task.title }}</strong><br>
+                    <a href="{% url 'edit_task' task.id %}">Redaguoti</a>
+                    <a href="{% url 'delete_task' task.id %}">Ištrinti</a>
                     {{ task.content }}<br>
                     <small>Sukurta: {{ task.created_at }}</small>
                 </li>
